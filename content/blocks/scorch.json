@@ -14,7 +14,7 @@
     },
     "blast-compound": {
       "type": "FireBulletType",
-      "speed": 8.0,
+      "speed": 18.0,
       "damage": 5.0,
       "lifetime": 40.0,
       "radius": 14.0,
