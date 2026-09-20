@@ -1,0 +1,34 @@
+{
+  "name": "spectre-phase-ammo",
+  "displayName": "彈藥模組",
+  "author": "Jeff Chang",
+  "description": "可以使用新彈藥",
+  "version": "1.0",
+  "minGameVersion": "136",
+  "blocks": [
+    {
+      "name": "spectre",
+      "ammoTypes": {
+        "phase-fabric": {
+          "type": "BasicBulletType",
+          "speed": 27.0,
+          "damage": 110,
+          "lifetime": 15,
+          "width": 16.0,
+          "height": 21.0,
+          "shootEffect": "shootBig",
+          "smokeEffect": "shootBigSmoke",
+          "ammoMultiplier": 7,
+          "pierceCap": 4,
+          "pierceBuilding": true,
+          "reloadMultiplier": 3.0,
+          "knockback": 0.5,
+          "status": "blasted",
+          "statusDuration": 120,
+          "homingPower": 0.1,
+          "homingRange": 50
+        }
+      }
+    }
+  ]
+}
