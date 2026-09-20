@@ -1,0 +1,23 @@
+{
+  "ammoTypes": {
+    "phase-fabric": {
+      "type": "BasicBulletType",
+      "speed": 9.0,
+      "damage": 110,
+      "lifetime": 45,
+      "width": 16.0,
+      "height": 21.0,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "ammoMultiplier": 3,
+      "pierceCap": 3,
+      "pierceBuilding": true,
+      "reloadMultiplier": 1.2,
+      "knockback": 1.5,
+      "status": "blasted",
+      "statusDuration": 120,
+      "homingPower": 0.1,
+      "homingRange": 50
+    }
+  }
+}
