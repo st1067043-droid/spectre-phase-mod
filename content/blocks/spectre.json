@@ -1,4 +1,16 @@
 {
+  "range": 320.0,
+  "reload": 8.0,
+  "rotateSpeed": 8.0,
+  "inaccuracy": 0.9,
+  "targetAir": true,
+  "targetGround": true,
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 4,
+    "barrels": 2,
+    "shotDelay": 2.0
+  },
   "ammoTypes": {
     "thorium": {
       "type": "BasicBulletType",
