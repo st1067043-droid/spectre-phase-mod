@@ -1,5 +1,7 @@
 {
   "range": 240.0,
+  "hasItems": true,
+  "itemCapacity": 10,
   "ammoTypes": {
     "plastanium": {
       "type": "BasicBulletType",
